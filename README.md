@@ -18,6 +18,6 @@
   <p>
   Criando pokedex usando Angular e API
     
-   Para ver o site clique  <a href="">AQUI</a>
+   Para ver o site clique  <a href="https://poke-dex-zeta.vercel.app/">AQUI</a>
   </p>
 
