@@ -12,14 +12,6 @@ export class PokeListComponent implements OnInit{
   public setAllPokemons: any;
   public getAllPokemons: any;
 
-  public getSearch(value: string){
-    const filter = this.setAllPokemons.filter((res: any) => {
-      return !res.name.indexOf(value.toLowerCase())
-    });
-
-    this.getAllPokemons = filter;
-  }
-
   constructor(
     private pokeApiService: PokeApiService
   ){
@@ -33,4 +25,14 @@ export class PokeListComponent implements OnInit{
       }
     );
   }
+
+
+  public getSearch(value: string){
+    const filter = this.setAllPokemons.filter((res: any) => {
+      return !res.name.indexOf(value.toLowerCase())
+    });
+
+    this.getAllPokemons = filter;
+  }
+
 }
