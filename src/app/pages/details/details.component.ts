@@ -17,6 +17,8 @@ export class DetailsComponent implements OnInit{
   public isLoading: boolean = false;
   public apiError: boolean = false;
 
+
+
   constructor(
     private activatedRoute: ActivatedRoute,
     private pokeApiService: PokeApiService
@@ -35,6 +37,10 @@ export class DetailsComponent implements OnInit{
       res => {
         this.pokemon = res;
         this.isLoading = true;
+
+
+        // this.isLoading = false;
+        // this.apiError = true;
       },
       error => {
         this.apiError = true;
