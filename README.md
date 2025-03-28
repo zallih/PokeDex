@@ -2,7 +2,7 @@
 
 <p align="middle">•Completo•</p>
 
-<img align="right" alt="zallih" width="150" src="https://cdn.discordapp.com/attachments/1128416328215167096/1157425285344534678/download20230905181423.png?ex=66ebeb8b&is=66ea9a0b&hm=a125113e1e0e5b130bd98fce76dba8edd2c83f38bd40616fb777c1f5598aa788&">
+<img align="right" alt="zallih" width="150" src="https://github.com/zallih/Images/blob/main/zally.png?raw=true">
   <br><br>
 <div style="display: inline_block"><br>
  
